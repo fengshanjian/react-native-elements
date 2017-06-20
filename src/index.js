@@ -1,3 +1,13 @@
+/**
+ * @Author: will
+ * @Date:   2017-06-20T09:43:15+08:00
+ * @Filename: index.js
+ * @Last modified by:   will
+ * @Last modified time: 2017-06-20T16:55:44+08:00
+ */
+
+
+
 import Badge from './badge/badge';
 import Button from './buttons/Button';
 import ButtonGroup from './buttons/ButtonGroup';
@@ -30,7 +40,40 @@ import Rating from './rating/Rating';
 import SwipeDeck from './swipedeck/SwipeDeck';
 import Header from './header/Header';
 
+import ActionPopover from './teaset/ActionPopover/ActionPopover';
+import Theme from './teaset/themes/Theme';
+import Label from './teaset/Label/Label';
+import BadgeTeaset from './teaset/Badge/Badge';
+import Popover from './teaset/Popover/Popover';
+import Carousel from './teaset/Carousel/Carousel';
+import Projector from './teaset/Projector/Projector';
+import SegmentedBar from './teaset/SegmentedBar/SegmentedBar';
+import SegmentedView from './teaset/SegmentedView/SegmentedView';
+import Overlay from './teaset/Overlay/Overlay';
+import Toast from './teaset/Toast/Toast';
+import ActionSheet from './teaset/ActionSheet/ActionSheet';
+import PullPicker from './teaset/PullPicker/PullPicker';
+import ListRow from './teaset/ListRow/ListRow';
+
+import * as Progress from './Progress';
+
 const Elements = {
+  Theme,
+  ActionPopover,
+  Label,
+  Popover,
+  Carousel,
+  Projector,
+  SegmentedBar,
+  SegmentedView,
+  Overlay,
+  Toast,
+  ActionSheet,
+  PullPicker,
+  ListRow,
+
+  Progress,
+
   Badge,
   Button,
   ButtonGroup,
