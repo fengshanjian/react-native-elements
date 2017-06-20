@@ -1,3 +1,13 @@
+/**
+ * @Author: will
+ * @Date:   2017-06-20T09:43:15+08:00
+ * @Filename: Button.js
+ * @Last modified by:   will
+ * @Last modified time: 2017-06-20T10:35:40+08:00
+ */
+
+
+
 import PropTypes from 'prop-types';
 import React from 'react';
 import {
@@ -30,6 +40,8 @@ const Button = props => {
     title,
     onPress,
     icon,
+    image,
+    imageStyle,
     iconComponent,
     secondary,
     secondary2,
@@ -104,7 +116,30 @@ const Button = props => {
       true
     );
   }
-
+  let textElement;
+  if (title) {
+    textElement = (
+      <Text
+        style={[
+          styles.text,
+          color && { color },
+          !large && styles.smallFont,
+          fontSize && { fontSize },
+          textStyle && textStyle,
+          fontWeight && { fontWeight },
+          fontFamily && { fontFamily },
+        ]}
+      >
+        {title}
+      </Text>
+    );
+  }
+  let imageElement;
+  if (image) {
+    imageElement = (
+      <Image style={imageStyle} source={image}>
+    );
+  }
   const baseFont = {
     color: (textStyle && textStyle.color) || color || stylesObject.text.color,
     size: (textStyle && textStyle.fontSize) ||
@@ -154,21 +189,10 @@ const Button = props => {
             disabled && disabledStyle && disabledStyle,
           ]}
         >
+          {image && imageElement}
           {icon && !iconRight && iconElement}
           {loading && !loadingRight && loadingElement}
-          <Text
-            style={[
-              styles.text,
-              color && { color },
-              !large && styles.smallFont,
-              fontSize && { fontSize },
-              textStyle && textStyle,
-              fontWeight && { fontWeight },
-              fontFamily && { fontFamily },
-            ]}
-          >
-            {title}
-          </Text>
+          {title && textElement}
           {loading && loadingRight && loadingElement}
           {icon && iconRight && iconElement}
         </View>

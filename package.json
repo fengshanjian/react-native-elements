@@ -1,18 +1,12 @@
 {
-  "name": "react-native-elements",
-  "version": "0.13.0",
-  "description": "React Native Elements & UI Toolkit",
+  "name": "react-native-komect-uikit",
+  "version": "1.0.1",
+  "description": "React Native UI Toolkit",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dabit3/React-Native-Elements.git"
+    "url": "git+ssh://git@github.com/fengshanjian/react-native-elements.git"
   },
-  "keywords": [
-    "react-native",
-    "reactjs",
-    "reactnative",
-    "bootstrap"
-  ],
   "scripts": {
     "build": "rm -rf build; webpack",
     "test": "jest",
@@ -26,17 +20,8 @@
   "peerDependencies": {
     "react-native-vector-icons": "~4.1.1"
   },
-  "author": "Nader Dabit",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/react-native-training/react-native-elements/issues"
-  },
-  "homepage": "https://github.com/react-native-training/react-native-elements#readme",
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/react-native-elements",
-    "logo": "https://opencollective.com/react-native-elements/logo.txt"
-  },
+  "author": "fengshanjian",
+  "license": "ISC",
   "dependencies": {
     "lodash.isempty": "^4.4.0",
     "lodash.times": "^4.3.2",
@@ -70,26 +55,5 @@
     "react-native": "^0.41.2",
     "react-native-vector-icons": "^4.1.1",
     "webpack": "^2.2.1"
-  },
-  "jest": {
-    "preset": "react-native",
-    "coverageDirectory": "./coverage/",
-    "collectCoverageFrom": [
-      "src/**/*.js",
-      "!src/index.js",
-      "!src/tabs/*.js",
-      "!src/sidemenu/*.js",
-      "!src/helpers/*.js"
-    ],
-    "collectCoverage": true,
-    "globals": {
-      "__DEV__": true
-    }
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --single-quote --trailing-comma es5 --write",
-      "git add"
-    ]
   }
 }
