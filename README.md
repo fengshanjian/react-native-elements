@@ -37,10 +37,10 @@
 
 - If you are using
 [create-react-native-app](https://github.com/react-community/create-react-native-app)
-or [Expo](https://expo.io), [follow these instructions](https://github.com/react-native-training/react-native-elements/blob/master/using-with-crna-or-expo.md).
+or [Expo](https://expo.io), [follow these instructions](https://github.com/fengshanjian/react-native-elements/blob/master/using-with-crna-or-expo.md).
 
 - If your project is a standard React Native project (if you have an
-ios/android directory and created it with `react-native init`), [follow these installation instructions](https://github.com/react-native-training/react-native-elements/blob/master/default_installation.md).
+ios/android directory and created it with `react-native init`), [follow these installation instructions](https://github.com/fengshanjian/react-native-elements/blob/master/default_installation.md).
 
 ### Usage
 

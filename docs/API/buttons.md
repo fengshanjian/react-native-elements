@@ -30,6 +30,11 @@ import { Button } from 'react-native-elements'
   large
   icon={{name: 'squirrel', type: 'octicon', buttonStyle: styles.someButtonStyle }}
   title='OCTICON' />
+//纯图片按钮
+<Button
+  buttonStyle={{backgroundColor:'transparent'}}              
+  image={require('./image/message@3x.png')}
+  imageStyle={{width:45,height:45,resizeMode:'contain'}} />
 
 ```
 
@@ -41,7 +46,7 @@ import { Button } from 'react-native-elements'
 | ---- | ---- | ----| ---- |
 | Component | TouchableHighlight (iOS), TouchableNativeFeedback (android) | React Native Component | Specify other component such as TouchableOpacity or other (optional) |
 | buttonStyle | none | object (style) | add additional styling for button component (optional) |
-| title | none | string | button title (required) |
+| title | none | string | button title (optional可选) |
 | large | false | boolean | makes button large |
 | fontFamily | System font (iOS), Sans Serif (android) | string | specify different font family |
 | fontWeight | none | string | specify font weight for title (optional) |
@@ -60,3 +65,6 @@ import { Button } from 'react-native-elements'
 | disabled | false | boolean | prop to indicate button is disabled (optional) |
 | disabledStyle | none | object (style) | disabled button styling (optional) |
 | containerViewStyle | none | View style (object) | styling for Component container |
+| image | none | Image的图片源 | 设置image图片源与imageStyle配合使用 |
+| imageStyle | none | Image的样式 | 设置image图片的样式 |
+
