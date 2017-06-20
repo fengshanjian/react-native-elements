@@ -3,7 +3,7 @@
  * @Date:   2017-06-20T09:43:15+08:00
  * @Filename: Button.js
  * @Last modified by:   will
- * @Last modified time: 2017-06-20T10:35:40+08:00
+ * @Last modified time: 2017-06-20T11:43:06+08:00
  */
 
 
@@ -15,6 +15,7 @@ import {
   TouchableHighlight,
   StyleSheet,
   View,
+  Image,
   Platform,
   ActivityIndicator,
   Text as NativeText,
@@ -137,7 +138,7 @@ const Button = props => {
   let imageElement;
   if (image) {
     imageElement = (
-      <Image style={imageStyle} source={image}>
+      <Image style={imageStyle} source={image}/>
     );
   }
   const baseFont = {
