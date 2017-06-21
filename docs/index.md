@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="https://react-native-community.github.io/react-native-elements/">
-    <img alt="react-native-elements" src="images/react_native_elements_logo.png" width="450">
+    <img alt="react-native-elements" src="https://raw.githubusercontent.com/react-native-training/react-native-elements/master/docs/images/react_native_elements_logo.png" width="450">
   </a>
 </p>
 
@@ -12,19 +11,6 @@
   Cross Platform <a href="https://facebook.github.io/react-native/">React Native</a> UI Toolkit
 </p>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/react-native-elements"><img src="https://img.shields.io/npm/v/react-native-elements.svg?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/react-native-elements"><img src="https://img.shields.io/npm/dm/react-native-elements.svg?style=flat-square"></a>
-  <a href="https://travis-ci.org/react-native-training/react-native-elements"><img src="https://img.shields.io/travis/react-native-training/react-native-elements/master.svg?style=flat-square"></a>
-  <a href="https://reactnativetraining.herokuapp.com/"><img src="https://reactnativetraining.herokuapp.com/badge.svg"></a>
-</p>
-
-<p align="center">
-  <a href="#backers"><img src="https://opencollective.com/react-native-elements/backers/badge.svg"></a>
-  <a href="#sponsors"><img src="https://opencollective.com/react-native-elements/sponsors/badge.svg"></a>
-  <a href="https://codecov.io/gh/react-native-training/react-native-elements"><img src="https://codecov.io/gh/react-native-training/react-native-elements/coverage.svg"></a>
-  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
-</p>
 
 <br />
 
@@ -34,12 +20,16 @@
 
 ### Installation
 
-- If you are using
-[create-react-native-app](https://github.com/react-community/create-react-native-app)
-or [Expo](https://expo.io), [follow these instructions](https://github.com/react-native-training/react-native-elements/blob/master/using-with-crna-or-expo.md).
 
-- If your project is a standard React Native project (if you have an
-ios/android directory and created it with `react-native init`), [follow these installation instructions](https://github.com/react-native-training/react-native-elements/blob/master/default_installation.md).
+- [参考这里](https://github.com/fengshanjian/react-native-elements/blob/master/default_installation.md).
+
+
+```js
+
+npm i react-native-vector-icons --save && react-native link react-native-vector-icons
+npm i react-native-komect-uikit --save
+
+```
 
 ### Usage
 
@@ -59,128 +49,36 @@ import { Button } from 'react-native-elements';
 
 ## Components Included
 
-- [x] [Buttons](https://react-native-training.github.io/react-native-elements/API/buttons/)
-- [x] [Badge](https://react-native-training.github.io/react-native-elements/API/badge/)
-- [x] [Social Icons / Social Icon Buttons](https://react-native-training.github.io/react-native-elements/API/social_icons/)
-- [x] [Icons](https://react-native-training.github.io/react-native-elements/API/icons/)
-- [x] [Side Menu](https://react-native-training.github.io/react-native-elements/API/side_menu/)
-- [x] [Form Elements](https://react-native-training.github.io/react-native-elements/API/forms/)
-- [x] [Search Bar](https://react-native-training.github.io/react-native-elements/API/searchbar/)
-- [x] [ButtonGroup](https://react-native-training.github.io/react-native-elements/API/button_group/)
-- [x] [Checkboxes](https://react-native-training.github.io/react-native-elements/API/checkbox/)
-- [x] [List Element](https://react-native-training.github.io/react-native-elements/API/lists/)
-- [x] [Badge](https://react-native-training.github.io/react-native-elements/API/badge/)
-- [x] [Tab Bar Component](https://react-native-training.github.io/react-native-elements/API/tabbar/)
-- [x] [HTML style headings](https://react-native-training.github.io/react-native-elements/API/HTML_style_headings/)
-- [x] [Card component](https://react-native-training.github.io/react-native-elements/API/card/)
-- [x] [Pricing Component](https://react-native-training.github.io/react-native-elements/API/pricing/)
-- [x] [Grid Component](https://react-native-training.github.io/react-native-elements/API/grid/)
-- [x] [Slider Component](https://react-native-training.github.io/react-native-elements/API/slider/)
-- [x] [Tile Component](https://react-native-training.github.io/react-native-elements/API/tile/)
-- [x] [Avatar Component](https://react-native-training.github.io/react-native-elements/API/avatar/)
-- [x] [Rating Component](https://react-native-training.github.io/react-native-elements/API/rating/)
-- [x] [SwipeDeck Component](https://react-native-training.github.io/react-native-elements/API/swipedeck/)
-- [x] [Header Component](https://react-native-training.github.io/react-native-elements/API/header/)
-
-## Documentation
-
-[View the full docs here](https://react-native-training.github.io/react-native-elements/API/)
-
-## Demo App
-
-Run the pre built and configured [React Native Elements App](https://expo.io/@monte9/react-native-elements-app) on Expo which uses all of the React Native Elements components.
-
-Also checkout the `example/` folder to view the implementation & run the expo app locally.
-
-## Roadmap
-
-#### FIRST CONTRIBUTORS
-Look for the label `Good First Task` on the issues. Click [here](https://github.com/react-native-training/react-native-elements/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Task%22) to see them.
-
-#### NOT STARTED
-- [ ] [Floating labels on FormInput](https://github.com/react-native-training/react-native-elements/issues/94)
-- [ ] [Compatibility with react-native-web](https://github.com/react-native-training/react-native-elements/issues/110)
-- [ ] [Support Multiple FormInput refs](https://github.com/react-native-training/react-native-elements/issues/147)
-- [ ] [Two-Marker Slider](https://github.com/react-native-training/react-native-elements/issues/15)
-- [ ] [Add Notification Component](https://github.com/react-native-training/react-native-elements/issues/190)
-- [ ] [Add Image Component which supports parallax](https://github.com/react-native-training/react-native-elements/issues/203)
-- [ ] [Add DatePicker/Calendar Component](https://github.com/react-native-training/react-native-elements/issues/214)
-- [ ] [Add Theming & Default Styles](https://github.com/react-native-training/react-native-elements/issues/216)
-- [ ] Something you's like to see? Submit an [issue](https://github.com/react-native-training/react-native-elements/issues) or a [pull request](https://github.com/react-native-training/react-native-elements/pulls)
-
-## Contributing
-
-Interested in contributing to this repo? Have a look at our [Contributing Guide](./.github/CONTRIBUTING.md)
-
-Also come say hi to the RNE community on our public [Slack team](https://reactnativetraining.herokuapp.com/). See you on the other side! :)
-
-## Backers
-
-Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/react-native-elements#backer)]
-
-<a href="https://opencollective.com/react-native-elements/backer/0/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/1/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/2/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/3/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/4/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/5/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/6/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/7/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/8/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/9/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/10/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/11/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/11/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/12/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/12/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/13/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/13/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/14/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/14/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/15/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/15/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/16/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/16/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/17/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/17/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/18/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/18/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/19/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/19/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/20/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/20/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/21/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/21/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/22/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/23/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/23/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/24/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/24/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/25/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/25/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/26/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/26/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/27/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/27/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/28/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/28/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/backer/29/website" target="_blank"><img src="https://opencollective.com/react-native-elements/backer/29/avatar.svg"></a>
-
-
-## Sponsors
-
-Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/react-native-elements#sponsor)]
-
-<a href="https://opencollective.com/react-native-elements/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/9/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/10/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/10/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/11/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/11/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/12/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/12/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/13/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/13/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/14/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/14/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/15/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/15/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/16/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/16/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/17/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/17/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/18/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/18/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/19/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/19/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/20/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/20/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/21/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/21/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/22/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/22/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/23/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/23/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/24/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/24/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/25/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/25/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/26/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/26/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/27/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/27/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/28/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/28/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-elements/sponsor/29/website" target="_blank"><img src="https://opencollective.com/react-native-elements/sponsor/29/avatar.svg"></a>
+-  [Buttons 按钮](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/buttons.md)
+-  [Social Icons / Social Icon Buttons 社交图标](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/social_icons.md)
+-  [Icons 图标](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/icons.md)
+-  [Side Menu 侧滑菜单](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/side_menu.md)
+-  [Form Elements 表单](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/forms.md)
+-  [Search Bar 搜索栏](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/searchbar.md)
+-  [ButtonGroup 按钮组合](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/button_group.md)
+-  [Checkboxes 选择框](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/checkbox.md)
+-  [List Element 列表以及列表item样式](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/lists.md)
+-  [Badge 红点以及未读标志](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/badge.md)
+-  [Tab Bar 底部Tab(不建议使用，建议使用react-naivigation）](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/tabbar.md)
+-  [HTML style headings](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/HTML_style_headings.md)
+-  [Card 卡片](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/card.md)
+-  [Pricing 价格](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/pricing.md)
+-  [Grid 视图分块](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/grid.md)
+-  [Slider 侧滑](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/slider.md)
+-  [Tile](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/tile.md)
+-  [Avatar 圆角图片](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/avatar.md)
+-  [Rating](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/rating.md)
+-  [SwipeDeck 这个自己看](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/swipedeck.md)
+-  [ActionPopover 操作气泡](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/ActionPopover.md)
+-  [ActionSheet 操作选单](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/ActionSheet.md)
+-  [Carousel 图片轮播](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Carousel.md)
+-  [Label 文字](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Label.md)
+-  [ListRow 列表item](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/ListRow.md)
+-  [Overlay 浮层](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Overlay.md)
+-  [Popover 气泡](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Popover.md)
+-  [Progress 进度条刷新按钮等](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Progress.md)
+-  [Projector 幻灯片](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Projector.md)
+-  [PullPicker 上拉选择器](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/PullPicker.md)
+-  [SegmentedBar 分段工具条](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/SegmentedBar.md)
+-  [SegmentedView 分段器](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/SegmentedView.md)
+-  [Toast 轻提示](https://github.com/fengshanjian/react-native-elements/blob/master/docs/API/Toast.md)

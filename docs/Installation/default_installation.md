@@ -13,11 +13,11 @@ If you already have this installed, or are using create-react-native-app, this i
 ## Step 2: Install react-native-elements
 
 ```
-yarn add react-native-elements
+yarn add react-native-komect-uikit
 ```
 
 or
 
 ```
-npm i react-native-elements --save
+npm i react-native-komect-uikit --save
 ```
